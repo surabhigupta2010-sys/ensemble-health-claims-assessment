@@ -161,6 +161,17 @@ This command will:
 - Score current claims
 - Assign risk tiers
 - Generate SHAP explanations
+
+- ## Environment Variables
+
+Create a `.env` file in the project root with the following variable:
+
+```
+GOOGLE_API_KEY=your_google_gemini_api_key
+```
+
+This API key is required only for generating Gemini-based LLM explanations during claim scoring.
+
 - Generate Gemini explanations for the Top 10 highest-risk claims
 - Save:
 
